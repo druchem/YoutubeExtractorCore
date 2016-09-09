@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8054A55A-49F2-499D-A841-C635315E0A73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD19400B-3049-4592-A18B-1B8BF7629D46}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "YoutubeExtractorCore", "src\YoutubeExtractorCore\YoutubeExtractorCore.xproj", "{C861CBDA-7FE5-4AB3-96E0-5529807CD696}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "YoutubeExtractorCore.Example", "src\YoutubeExtractorCore.Example\YoutubeExtractorCore.Example.xproj", "{FEAB531C-9DA7-4FD6-BDD8-3E6EA3791B60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C861CBDA-7FE5-4AB3-96E0-5529807CD696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C861CBDA-7FE5-4AB3-96E0-5529807CD696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C861CBDA-7FE5-4AB3-96E0-5529807CD696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C861CBDA-7FE5-4AB3-96E0-5529807CD696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAB531C-9DA7-4FD6-BDD8-3E6EA3791B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAB531C-9DA7-4FD6-BDD8-3E6EA3791B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAB531C-9DA7-4FD6-BDD8-3E6EA3791B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAB531C-9DA7-4FD6-BDD8-3E6EA3791B60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C861CBDA-7FE5-4AB3-96E0-5529807CD696} = {8054A55A-49F2-499D-A841-C635315E0A73}
+		{FEAB531C-9DA7-4FD6-BDD8-3E6EA3791B60} = {8054A55A-49F2-499D-A841-C635315E0A73}
+	EndGlobalSection
+EndGlobal
