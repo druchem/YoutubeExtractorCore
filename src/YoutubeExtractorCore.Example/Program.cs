@@ -13,7 +13,7 @@ namespace YoutubeExtractorCore.Example
 
         private static async Task RunExample()
         {
-            const string videoUrl = "https://www.youtube.com/watch?v=Ydpep4P-LzQ";
+            const string videoUrl = "https://www.youtube.com/watch?v=6tjHBbvKd3M";
             try
             {
                 var videoInfos = await DownloadUrlResolver.GetDownloadUrlsAsync(videoUrl, false);
