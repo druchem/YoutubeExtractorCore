@@ -1,7 +1,13 @@
 {
   "title": "YoutubeExtractorCore",
   "description": ".NET Core library used for extracting information about Youtube videos",
-  "version": "0.0.9-*",
+  "version": "0.1.0",
+  "authors": [ "Druchem" ],
+  "packOptions": {
+    "licenseUrl": "https://opensource.org/licenses/MIT",
+    "projectUrl": "https://github.com/druchem/YoutubeExtractorCore",
+    "tags": [ "Youtube", "Extractor", "Core" ]
+  },
 
   "dependencies": {
     "Microsoft.NETCore.Platforms": "1.0.1",
