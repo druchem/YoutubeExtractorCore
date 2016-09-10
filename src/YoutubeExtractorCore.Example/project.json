@@ -5,16 +5,19 @@
   },
 
   "dependencies": {
-    "Microsoft.NETCore.App": {
-      "type": "platform",
-      "version": "1.0.0"
-    },
-    "YoutubeExtractorCore": "1.0.0-*"
+    "Microsoft.NETCore.Runtime.CoreCLR": "1.0.2",
+    "System.Console": "4.0.0",
+    "System.IO.Compression": "4.1.0",
+    "YoutubeExtractorCore": "0.0.8-*"
   },
 
   "frameworks": {
     "netcoreapp1.0": {
       "imports": "dnxcore50"
     }
+  },
+  "runtimes": {
+    "win10-x86": {},
+    "win10-x64": {}
   }
 }
