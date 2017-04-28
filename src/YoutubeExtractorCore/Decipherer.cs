@@ -14,7 +14,7 @@ namespace YoutubeExtractorCore
             string js = await HttpHelper.DownloadStringAsync(jsUrl);
 
             //Find "C" in this: var A = B.sig||C (B.s)
-            const string functNamePattern = @"\.sig\s*\|\|([a-zA-Z0-9\$]+)\("; //Regex Formed To Find Word or DollarSign
+            const string functNamePattern = @"\""signature"",\s?([a-zA-Z0-9\$]+)\(";
 
             string funcName = Regex.Match(js, functNamePattern).Groups[1].Value;
             
